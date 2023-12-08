@@ -1,0 +1,28 @@
+ecommerce-platform/
+|-- src/
+|   |-- main/
+|       |-- java/
+|           |-- com.example.ecommerce/
+|               |-- controller/
+|               |   |-- ProductController.java
+|               |   |-- UserController.java
+|               |-- model/
+|               |   |-- Product.java
+|               |   |-- User.java
+|               |-- repository/
+|               |   |-- ProductRepository.java
+|               |   |-- UserRepository.java
+|               |-- service/
+|                   |-- ProductService.java
+|                   |-- UserService.java
+|-- resources/
+|   |-- application.properties
+|-- webapp/
+|   |-- WEB-INF/
+|       |-- views/
+|           |-- product-list.jsp
+|           |-- cart.jsp
+|           |-- login.jsp
+|           |-- register.jsp
+|   |-- web.xml
+|-- pom.xml
